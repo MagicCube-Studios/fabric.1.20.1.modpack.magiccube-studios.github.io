@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Mi Sans Medium";
+  src: url(../font/ttf/MiSans-Medium.ttf);
+} 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mi Sans Medium';
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ins,
+a {
+  text-decoration: none;
+}
+
+a:focus,
+*:focus {
+  outline: none;
+}
+
+.b-content {
+  width: 650px;
+  margin: 50px auto;
+  font-size: 14px;
+  color: #999;
+}
+
+.pic-box {
+  padding-bottom: 10px;
+}
+
+/* .text-box { padding-bottom: 20px; border-bottom: 1px solid #eee; } */
+.text-box .title {
+  text-align: center;
+  margin: 40px 0 25px 0;
+  position: relative;
+}
+
+.text-box .title span {
+  background-color: #fff;
+  padding: 0 8px;
+  color: #9499a0;
+}
+
+.text-box .title-line {
+  width: 100%;
+  display: block;
+  height: 1px;
+  background-color: #f1f2f3;
+  margin-top: -10px;
+}
+
+.text-box .list {
+  height: 90px;
+}
+
+.text-box .list li a {
+  float: left;
+  width: 100px;
+  text-align: center;
+  line-height: 24px;
+  color: #666;
+}
+
+.text-box .list li .iconfont {
+  font-size: 30px;
+}
+
+.text-box .list li a span {
+  font-size: 12px;
+  color: #999;
+}
+
+.copyright {
+  margin-top: 60px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-box {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.pic-box p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #61666d;
+}
+
+.center-title {
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  margin: 50px 0 12px 0;
+}
+
+.highline {
+  color: #66cfff;
+}
+
+.browser-item {
+  height: 120px;
+  background: #f1f2f3;
+  border-radius: 8px;
+  width: 88px;
+  margin-right: 8px;
+  padding: 20px 0;
+  display: flex;
+  transition: 0.3s;
+}
+
+.browser-item:hover {
+  background: #e3e5e7;
+}
+
+.browser-item .iconfont {
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.browser-name {
+  color: #61666d !important;
+  font-weight: bold;
+}
+
+.icon-chrome {
+  width: 48px;
+  height: 48px;
+}
+
+.icon-firefox {
+  width: 48px;
+  height: 48px;
+}
+
+.icon-edge {
+  width: 48px;
+  height: 48px;
+}

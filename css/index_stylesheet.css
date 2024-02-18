@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Mi Sans Medium';
+    src: url(../font/ttf/MiSans-Medium.ttf);
+}
+
+.container {
+    /* 居中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head1 {
+    /* 居中偏下，Mi Sans 字体 (../font/ttf/MiSans-Medium.ttf) */
+    color: #000000;
+    text-shadow: 2px 2px 4px #ffffff;
+    position: relative;
+    top: 100px;
+    /* 字体 (直接调用ttf） */
+    font-family: 'Mi Sans Medium';
+    font-size: 40px;
+}
+
+.introduce {
+    /* 居中偏下，Mi Sans 字体 (../font/ttf/MiSans-Medium.ttf) */
+    color: #000000;
+    text-shadow: 2px 2px 4px #ffffff;
+    position: relative;
+    top: 120px;
+    /* 字体 (直接调用ttf） */
+    font-family: 'Mi Sans Medium';
+    font-size: 20px;
+}
+
+.introduce-ram {
+    /* 居中偏下，Mi Sans 字体 (../font/ttf/MiSans-Medium.ttf) */
+    color: cornflowerblue;
+    text-shadow: 2px 2px 4px #ffffff;
+    position: relative;
+    top: 120px;
+    /* 字体 (直接调用ttf） */
+    font-family: 'Mi Sans Medium';
+    font-size: 20px;
+}
+
+.download-button-local {
+    background-image: linear-gradient(to right, #1fa2ff 0%, #12d8fa  51%, #1fa2ff  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    position: relative;
+    top: 140px;
+    /* 字体 (直接调用ttf） */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Mi Sans Medium';
+    font-size: 40px;
+    text-decoration: none; /* 消除下划线 */
+    border: 2px solid white; /* 添加边框 */
+    cursor: pointer; /* 添加鼠标悬停样式 */
+    transition: all 0.3s ease; /* 添加过渡效果 */
+}
+
+.download-button-local:hover {
+    background-image: linear-gradient(to right, #1fa2ff 0%, #12d8fa  51%, #1fa2ff  100%);
+    background-position: right center; /* 背景图片向右移动 */
+}
+ 
+.download-button-local:active {
+    background-image: linear-gradient(to right, #76bdf0 0%, #64d7eb  51%, #76bdf0  100%);
+}
+
+.footer {
+    /* 最底下 */
+    position: absolute;
+    bottom: 0;
+    background-color: #bfe9ff;
+    /* 大小调整 */
+    /* 左右贴边 */
+    left: 0;
+    right: 0;
+
+}
+
+
+.footer-text {
+    /* 居中 */
+    margin: 0 auto;
+    white-space: nowrap;
+    display: inline;
+    /* 字体 */
+    font-family: 'Mi Sans Medium';
+    font-size: 16px;
+    text-decoration: none; /* 消除下划线 */
+    color: #000000;
+    /* 文字居中 */
+    text-align: center;
+}
+
+.beian-text {
+    white-space: nowrap;
+    display: inline;
+}
+
+.beian-text:hover {
+    cursor: pointer; /* 添加鼠标悬停样式 */
+}
+
+.beian-img {
+    height: 16px;
+    width: 16px;
+    margin-bottom: -3px; /* 调整图片位置 */
+    margin-left: 2px; /* 调整图片位置 */
+    cursor: pointer; /* 添加鼠标悬停样式 */
+    white-space: nowrap;
+    display: inline;
+}
+
+.background_wrap_img {
+    position: fixed; 
+    top: 0px; 
+    left: 0px; 
+    height: 100%; 
+    width: 100%; 
+    background: url(../img/l-1.svg) center center / cover no-repeat;
+}
